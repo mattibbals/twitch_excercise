@@ -1,0 +1,54 @@
+
+img {
+	float:left;
+	height: 100px;
+	width:100px;
+}
+li {
+	height: 125px;
+	width: 330px;
+	float:left;
+	display:none;
+	padding: 10px;
+}
+.stream_display_name {
+	font-size:22px;
+	font-weight: bold;
+}
+#prev_page,
+#current_page,
+#next_page {
+	display: none;
+}
+#prev_page,
+#next_page {
+	color:#0000ff;
+}
+#prev_page:hover,
+#next_page:hover {
+	cursor:hand;
+}
+.stream-padding {
+	padding-left: 15px;
+}
+li:hover .stream_info {
+    display: block;
+}
+.stream_info {
+    display: none;
+    background: #C8C8C8;
+    margin-left: 20px;
+    padding: 10px;
+    position: absolute;
+    z-index: 1000;
+}
+
+.couponcode {
+    margin:100px;
+}
+.pagination {
+	float: right;
+}
+img {
+	margin: 5px;
+}
